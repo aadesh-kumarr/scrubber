@@ -1,7 +1,7 @@
 "use server";
 
 function authorisation(email: string){
-    if(email === 'aadeshk306@gmail.com' || email === 'subodh.sabbarwal@gmail.com'){
+    if(email === 'aadeshk306@gmail.com' || email === 'subodh.sabbarwal@gmail.com' || 'itstyagi0001@gmail.com'){
         return true;
     } else {
         return false;
