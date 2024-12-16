@@ -1,4 +1,4 @@
-mail"use server";
+"use server";
 
 function authorisation(email: string){
     if(email === 'aadeshk306@gmail.com' || email === 'subodh.sabbarwal@gmail.com' || email==='itstyagi0001@gmail.com'){
