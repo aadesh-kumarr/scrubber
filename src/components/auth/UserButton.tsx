@@ -2,14 +2,7 @@ import { auth } from "@/auth";
 import Image from "next/image";
 import SignIn from "./signin";
 import { SignOut } from "./signout";
-import {
-    DropdownMenu,
-    DropdownMenuContent,
-    DropdownMenuItem,
-    DropdownMenuLabel,
-    DropdownMenuSeparator,
-    DropdownMenuTrigger,
-  } from "@/components/ui/dropdown-menu"
+
 
 export default async function UserButton() {
   const session = await auth();
